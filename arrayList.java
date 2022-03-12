@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class array {
+public class arrayList {
 
     public static void main(String[] args) {
 
