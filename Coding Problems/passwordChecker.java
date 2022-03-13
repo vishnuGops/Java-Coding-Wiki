@@ -55,6 +55,7 @@ public class passwordChecker {
 
         existingPassword = newConfirmedPassword;
         System.out.println("Password changed successfully!");
+        sc.close();
     }
 
 }

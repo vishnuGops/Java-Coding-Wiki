@@ -1,3 +1,4 @@
+package Collections;
 import java.util.*;
 
 public class linkedList {
@@ -43,7 +44,7 @@ public class linkedList {
 
         System.out.println("\nList Iterator\n");
 
-        ListIterator itr = list.listIterator(2);
+        ListIterator<String> itr = list.listIterator(2);
 
         while (itr.hasNext()) {
             System.out.println(itr.next());

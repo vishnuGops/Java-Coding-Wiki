@@ -1,4 +1,4 @@
-import java.io.*;
+package Collections;
 import java.util.*;
 
 public class arrayList {
