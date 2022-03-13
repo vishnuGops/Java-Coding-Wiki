@@ -1,11 +1,9 @@
-import java.io.*;
 import java.util.*;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class removeDuplicatesList {
     // this is using another array list
-    public static <Integer> ArrayList<Integer> removeDuplicates(ArrayList<Integer> list) {
+    public static ArrayList<Integer> removeDuplicates(ArrayList<Integer> list) {
         ArrayList<Integer> newlist = new ArrayList<Integer>();
 
         for (Integer i : list) {
@@ -21,7 +19,7 @@ public class removeDuplicatesList {
     // duplicates
     // is also faster and more efficient
 
-    public static <Integer> ArrayList removeDups(ArrayList<Integer> list) {
+    public static ArrayList<Integer> removeDups(ArrayList<Integer> list) {
 
         Set<Integer> set = new LinkedHashSet<Integer>();
 

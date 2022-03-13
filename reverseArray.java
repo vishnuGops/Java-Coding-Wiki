@@ -1,12 +1,12 @@
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
 public class reverseArray {
 
-    public static <T> ArrayList reversearray(ArrayList<T> list) {
-        ArrayList<T> newList = new ArrayList<T>();
+    public static ArrayList<Integer>  reversearray(ArrayList<Integer>  list) {
+        ArrayList<Integer>  newList = new ArrayList<Integer> ();
         for (int i = list.size() - 1; i >= 0; i--) {
             newList.add(list.get(i));
 
@@ -14,7 +14,7 @@ public class reverseArray {
         return newList;
     }
 
-    public static <Integer> ArrayList reversearray2(ArrayList<Integer> list) {
+    public static ArrayList<Integer> reversearray2(ArrayList<Integer> list) {
 
         for (int i = 0; i < list.size() / 2; i++) {
             Integer temp = list.get(i);

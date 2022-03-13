@@ -40,7 +40,7 @@ public class twoSumLessThanK {
         int[] nums = { 34, 23, 1, 24, 75, 33, 54, 8 };
         int target = 60;
 
-        int nums1 = twoSum(nums, target);
+        // int nums1 = twoSum(nums, target);
         int nums2 = twoSum2P(nums, target);
         // int nums3 = twoSumBS(nums, target);
         System.out.println(nums2);

@@ -51,7 +51,7 @@ public class TwoSum {
         int target = 9;
 
         int[] nums1 = twoSum(nums, target);
-        int[] nums2 = twoSum2Map(nums, target); // 2 pass hash map
+        // int[] nums2 = twoSum2Map(nums, target); // 2 pass hash map
         int[] nums3 = twoSum1Map(nums, target); // 1 pass hash map
         for (int i = 0; i < nums1.length; i++)
             System.out.println(nums3[i] + " ");
