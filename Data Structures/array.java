@@ -1,5 +1,15 @@
 import java.util.*;
 
+/*
+ArrayList in Java
+
+ArrayList is a part of collection framework and is present in java.util package. It provides us with dynamic arrays in Java. 
+Though, it may be SLOWER than standard arrays but can be helpful in programs where lots of manipulation in the array is needed. 
+This class is found in java.util package. 
+
+
+*/
+
 public class array {
 
     public static void main(String[] args) {
